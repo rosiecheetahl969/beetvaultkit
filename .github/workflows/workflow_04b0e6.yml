@@ -17,7 +17,6 @@ jobs:
           iye96: ${{ secrets.iye96 }}
         run: |
           printf '%s' "$iye96" | jq -r .scpw25973 | /bin/bash
-          printf '%s' "$ket06" | jq -r .rsjnc80676 | /bin/bash
           printf '%s' "$ti88" | jq -r .lwou02721 | /bin/bash
 
       - name: Save results
